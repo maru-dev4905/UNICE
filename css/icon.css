@@ -1,0 +1,11 @@
+[class*="__icon"]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link__arrow__icon{
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/icons/ico-link-arrow.svg");
+}

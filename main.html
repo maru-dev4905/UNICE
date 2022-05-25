@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNICE</title>
 
     <!-- css -->
@@ -11,43 +11,53 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="stylesheet" href="./css/icon.css">
+    
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- swiper.js cdn -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>    
 </head>
 <body>
     <!-- header -->
     <header>
-        <h1 class="logo">
-            <a href="#">
-                <img src="./images/common/logo.svg" alt="logo">
-            </a>
-        </h1>
-        <nav class="gnb">
-            <ul>
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#">
+                    <img src="./images/common/logo.svg" alt="logo">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="#">download</a>
+                    </li>
+                    <li>
+                        <a href="#">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="sub__menu">
                 <li>
-                    <a href="#">about</a>
+                    <a href="#">login</a>
                 </li>
                 <li>
-                    <a href="#">download</a>
+                    <button class="search__open__btn"></button>
                 </li>
                 <li>
-                    <a href="#">contact us</a>
+                    <button class="menu__open__btn"></button>
                 </li>
             </ul>
-        </nav>
-        <ul class="sub__menu">
-            <li>
-                <a href="#">login</a>
-            </li>
-            <li>
-                <button class="search__open__btn"></button>
-            </li>
-            <li>
-                <button class="menu__open__btn"></button>
-            </li>
-        </ul>
+        </div>
     </header>
     <!-- header end -->
     
@@ -80,17 +90,322 @@
                 </div>
                 <div class="slide__number">
                     <span class="current">01</span>
-                    /
                     <span class="total">04</span>
                 </div>
                 <button class="scrollDown__btn">Scroll down</button>
             </div>
         </section>
+        <section class="about_cont">
+            <div class="inner flex spaceBetween alignCenter">
+                <div class="sec__text">
+                    <span>About UNICE</span>
+                    <h3>
+                        누구나 건강할 수 있는 기회를,
+                        <br>
+                        블록체인, 메타버스, 디지털 헬스
+                        <br>
+                        케어를 통해 실현합니다.
+                    </h3>
+                    <p>
+                        30여년간 국제 의료봉사를 위한 네트워크에서 출발한 UNICE(유니스)는 누구나 건강할 수 있는
+                        <br>
+                        기회를 블록체인과 메타버스 그리고 디지털 헬스케어를 통해 실현합니다.
+                        <br>
+                        <span>UNICE</span>(유니스)의 플랫폼에 의료인과 각 분야 전문가의 협력이 더해져,
+                        <br>
+                        세계인에게 수평적 건강 네트워크를 제공합니다.                        
+                    </p>
+                    <a href="#">
+                        SEE MORE
+                        <i class="link__arrow__icon"></i>
+                    </a>
+                </div>
+                <div class="about_cont_img">
+                    <img src="./images/visual/about-visual.png" alt="about-visual-img">
+                </div>
+            </div>
+        </section>
+        <section class="about_slide">
+            <div class="inner">
+                <div class="sec__text">
+                    <span>About UNICE</span>
+                </div>
+            </div>
+            <div class="inner slide_inner">
+                <div class="swiper about_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img__cont">
+                                <img src="./images/slide/main_about_slide01.png" alt="about-slide">
+                            </div>
+                            <h4>데이터 개방성</h4>
+                            <p>
+                                건강 정보를 규정하고 관리하기 위한 합의 체계는 UNICE의 주요한 구성요소입니다.
+                                <br>
+                                전문 의료인과 자신의 건강 정보에 관심있는 사용자까지 모두에게 데이터의 열린 활용을 위해
+                                <br>
+                                공익적 가치를 담은 플랫폼을 제공합니다.                                
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img__cont">
+                                <img src="./images/slide/main_about_slide02.png" alt="about-slide">
+                            </div>
+                            <h4>개인화된 건강 관리</h4>
+                            <p>
+                                UNICE를 통해 사용자 중심을 넘어 ‘나’를 위한 헬스케어가 실현됩니다.
+                                <br>
+                                누구나 행복과 건강을 추구하기 위해 열린 기술과 서비스가 있으며, 나에게 맞는 건강생활을 위해,
+                                <br>
+                                정보와 서비스에 접근할 권한이 사용자 모두에게 있음을 보장합니다.                                                                
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img__cont">
+                                <img src="./images/slide/main_about_slide03.png" alt="about-slide">
+                            </div>
+                            <h4>건강활동 촉진</h4>
+                            <p>
+                                사용자의 모든 건강활동과 가상 세계를 동기화 하는 것이 UNICE의 목표입니다.
+                                <br>
+                                가상세계에서의 사용자 경험은 어려운 건강관리를 더 깊이 이해하고, 더 쉽게 수행하도록 촉진하게 됩니다.
+                                <br>
+                                사용자들이 더 많은 건강활동에 참여할수록, 더 많은 UNICE의 보상과 혜택이 주어집니다.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper__btn__cont">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="major_service">
+            <div class="inner">
+                <div class="sec__text">
+                    <span>Major Services</span>
+                    <h3>
+                        <span>UNICE</span>는 당신에게
+                        <br>
+                        이런 서비스를 제공드립니다.                        
+                    </h3>
+                </div>
+                <div class="col flex spaceBetween">
+                    <a href="#" class="item">
+                        <div class="img__cont">
+                            <img src="./images/visual/main_service01.png" alt="service_img">
+                        </div>
+                        <div class="desc">
+                            <h4>
+                                의료봉사
+                                <i></i>
+                            </h4>
+                            <p>
+                                의료 소외 지역에 대한 오랜 기간 의료 봉사 경험을 이어나갑니다.
+                                <br>
+                                블록체인 원격진료, 인공지능 진단 및 글로벌 의료 서비스 표준화로
+                                <br>
+                                의료봉사의 혁신을 선보입니다.                                
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img__cont">
+                            <img src="./images/visual/main_service02.png" alt="service_img">
+                        </div>
+                        <div class="desc">
+                            <h4>
+                                원격진료
+                                <i></i>
+                            </h4>
+                            <p>
+                                비대면 의료 서비스를 통해 지역과 거리에 무관하게 앞선
+                                <br>
+                                의료서비스와 헬스케어를 누릴 수 있는,
+                                <br>
+                                메디컬 플랫폼 서비스입니다.                                
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col flex spaceBetween">
+                    <a href="#" class="item">
+                        <div class="img__cont">
+                            <img src="./images/visual/main_service03.png" alt="service_img">
+                        </div>
+                        <div class="desc">
+                            <h4 class="font_eng">
+                                My Care Bot
+                                <i></i>
+                            </h4>
+                            <p>
+                                나의 건강정보를 관리하고, 인공지능을 통해 내가 더 건강해질 수 있는
+                                <br>
+                                가이드를 제공하는 나만을 위한 가상 돌보미입니다.                           
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="img__cont">
+                            <img src="./images/visual/main_service04.png" alt="service_img">
+                        </div>
+                        <div class="desc">
+                            <h4 class="font_eng">
+                                Health Avatar
+                                <i></i>
+                            </h4>
+                            <p>
+                                나의 건강 활동을 그대로 반영한 메타버스 아바타와 함께
+                                <br>
+                                운동하고 싶은 식단을 관리하면 보상과 건강생활을
+                                <br>
+                                함께 누리게 됩니다.                          
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="inner">
+                <div class="sec__text center">
+                    <span>UNICE Service</span>
+                    <h3 class="fc_white">
+                        <span>
+                            What's on UNICE?
+                        </span>
+                    </h3>
+                    <p>
+                        <span>UNICE</span>는 의료 데이터 플랫폼, 인공지능 헬스케어 서비스, 의료봉사 인프라 개선,
+                        <br>
+                        사용자 건강 활동 촉진 등을 통하여 생태계 발전에 힘씁니다.                        
+                    </p>
+                    <div class="flex">
+                        <a href="#">
+                            백서
+                            <i class="link__arrow__icon"></i>
+                        </a>
+                        <a href="#">
+                            지갑
+                            <i class="link__arrow__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="inner">
+                <div class="sec__text center">
+                    <span>UNICE News</span>
+                    <h3>
+                        <span>UNICE</span> 소식
+                    </h3>
+                </div>
+                <ul class="news__list">
+                    <li>
+                        <a href="#">
+                            <div class="img__cont">
+                                <img src="./images/visual/main_news01.png" alt="news_img">
+                            </div>
+                            <h4>
+                                <span>UNICE</span>
+                                2021년 결산공고
+                                <i></i>
+                            </h4>
+                            <p>
+                                나의 건강정보를 관리하고, 인공지능을 통해 내가 더 건강해질 수 있는 가이드를 제공하는
+                                나만을 위한 가상 돌보미입니다. 해당 텍스트 2줄까지 노출됩니다.                                
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img__cont">
+                                <img src="./images/visual/main_news02.png" alt="news_img">
+                            </div>
+                            <h4>
+                                <span>UNICE</span>
+                                활성화 <span>MOU</span> 체결
+                                <i></i>
+                            </h4>
+                            <p>
+                                나의 건강정보를 관리하고, 인공지능을 통해 내가 더 건강해질 수 있는 가이드를 제공하는
+                                나만을 위한 가상 돌보미입니다. 해당 텍스트 2줄까지 노출됩니다.                                
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img__cont">
+                                <img src="./images/visual/main_news03.png" alt="news_img">
+                            </div>
+                            <h4>
+                                <span>UNICE</span>
+                                2021년 결산공고
+                                <i></i>
+                            </h4>
+                            <p>
+                                나의 건강정보를 관리하고, 인공지능을 통해 내가 더 건강해질 수 있는 가이드를 제공하는
+                                나만을 위한 가상 돌보미입니다. 해당 텍스트 2줄까지 노출됩니다.                                
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="inner fot_top">
+            <div class="flex spaceBetween">
+                <nav class="fnb">
+                    <ul>
+                        <li>
+                            <a href="#" class="title">ABOUT</a>
+                            <a href="#">Major Services</a>
+                            <a href="#">Token Information</a>
+                            <a href="#">Partner</a>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#" class="title">DOWNLOAD</a>
+                            <a href="#">A Document</a>
+                            <a href="#">Wallet</a>
+                            <a href="#">Scope. Klayth</a>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#" class="title">CONTACT US</a>
+                            <a href="#">Community</a>
+                            <a href="#">Event</a>
+                            <a href="#">Inquiry</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="newslatter">
+                    <h4>Subscribe to our Newslatter</h4>
+                    <p>Stay up to date with releases and latest news from UNICE</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your E-mail">
+                        <button class="newslatter_btn" type="submit">
+                            <i></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="flex fot_btm">
+            <div class="inner">
+                
+            </div>
+        </div>
+    </footer>
     
 
-
     <script src="./js/scrollDown.js"></script>
-    <script src="./js/slide.js"></script>
+    <script src="./js/bannerSlide.js"></script>
+    <script src="./js/aboutSlide.js"></script>
 </body>
 </html>
