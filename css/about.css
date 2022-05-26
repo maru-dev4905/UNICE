@@ -1,0 +1,337 @@
+/* about banner */
+.banner{
+    width: 100%;
+    padding-top: 96px;
+}
+.banner .inner{
+    max-width: 1760px;
+}
+.banner .banner__img{
+    height: 800px;
+    height: calc(100vh - 96px);
+    position: relative;
+}
+.banner .banner__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.banner .banner__text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.banner .banner__text h2{
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.banner .banner__text p{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+}
+.banner .scrolldown{
+    position: absolute;
+    left: 50%;
+    bottom: 86px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.banner .scrolldown span{
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 86px;
+    display: block;
+}
+.banner .scrolldown::after{
+    content: "";
+    width: 1px;
+    height: 70px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+/* about banner end */
+
+/* about */
+.about{
+    padding: 150px 0;
+}
+.about .schematic_img{
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    max-width: 932px;
+}
+.about .schematic_img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* about end */
+
+
+/* data_platform */
+.data_platform{
+    background: rgba(65, 177, 230, 0.05);
+    padding: 100px 0 0;
+}
+.data_platform .sec__text + .col{
+    margin-top: 70px;
+}
+.data_platform .col > div{
+    flex: 1;
+}
+.data_platform .img__cont{
+    width: 100%;
+}
+.data_platform .img__cont img{
+    width: 100%;
+    height: auto;
+}
+.data_platform .platform_text{
+    padding-right: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.data_platform .img__cont + .platform_text{
+    padding-left: 85px;
+    padding-right: 0;
+}
+.data_platform .platform_text h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: #0d0d0d;
+    letter-spacing: -0.72px;
+    margin-bottom: 20px;
+}
+.data_platform .platform_text h4 span{
+    font-family: "Poppins";
+}
+.data_platform .platform_text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+}
+.data_platform .platform_text p span{
+    font-family: "Poppins";
+}
+.data_platform .col.pd{
+    padding: 120px 0;
+}
+.data_platform .col.pd:last-child{
+    padding-bottom: 80px;
+}
+.data_platform .list_text > div:first-of-type{
+    border-top: 1px solid #d9d9d9;
+}
+.data_platform .list_text > div{
+    padding: 30px;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+.data_platform .list_text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d0d0d;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    flex: 1;
+}
+.data_platform .list_text span{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    color: #606060;
+    line-height: 16px;
+    letter-spacing: -0.48px;
+}
+.data_platform .platform_schematic > div{
+    margin-bottom: 25px;
+}
+.data_platform .platform_schematic > div:first-child{
+    margin-bottom: 60px;
+    gap: 15px;
+}
+.data_platform .platform_schematic .box{
+    flex: 1;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 177, 230, 0.07);
+    position: relative;
+}
+.data_platform .platform_schematic .box.arrow::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -34px;
+    width: 12px;
+    height: 10px;
+    background: url("../images/common/triangle.svg") no-repeat center / cover;
+}
+.data_platform .platform_schematic p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+}
+.data_platform .platform_schematic p span{
+    font-family: "Poppins";
+}
+/* data_platform end */
+
+
+
+/* healthcare_platform */
+.healthcare_platform{
+    padding: 150px 0;
+}
+.healthcare_platform_list{
+    display: flex;
+    column-gap: 40px;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    max-width: 920px;
+}
+.healthcare_platform_list li{
+    width: 440px;
+}
+.healthcare_platform_list .img__cont{
+    width: 100%;
+}
+.healthcare_platform_list .img__cont img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.healthcare_platform_list h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin: 30px 0 18px;
+}
+.healthcare_platform_list p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    color: #606060;
+}
+.healthcare_platform_list p span{
+    font-family: "Poppins";
+}
+/* healthcare_platform end */
+
+
+
+/* metaverse */
+.metaverse{
+    padding: 92px 0;
+    background-color: #f9f9f9;
+}
+.metaverse .img__cont{
+    width: 545.6px;
+    margin: 0 auto 76px;
+}
+.metaverse .img__cont img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* metaverse end */
+
+
+/* token */
+.token{
+    padding: 150px 0;
+}
+.token .token__list{
+    display: flex;
+    gap: 40px;
+    max-width: 920px;
+}
+.token .token__list li{
+    width: 440px;
+}
+.token .token__list .img__cont{
+    width: 100%;
+    height: 350px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.token .token__list .img__cont img.token_logo{
+    /* width: 100%;
+    height: auto;
+    object-fit: cover; */
+    width: 124.5px;
+    display: block;
+}
+.token .token__list h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin: 30px 0 18px;
+}
+.token .token__list p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    color: #606060;
+}
+.token .token__list p span{
+    font-family: "Poppins";
+}
+/* token end */
+
+
+
+/* service */
+
+.service{
+    height: 700px;
+    background: #0d0d0d url("../images/visual/main_service_bg.png") no-repeat center / cover;
+}
+.service .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.service .sec__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* service end */

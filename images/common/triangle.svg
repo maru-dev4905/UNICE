@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0d0d0d;
+      }
+    </style>
+  </defs>
+  <path id="다각형_7" data-name="다각형 7" class="cls-1" d="M6,0l6,10H0Z" transform="translate(12 10) rotate(-180)"/>
+</svg>
