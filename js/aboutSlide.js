@@ -3,7 +3,6 @@ $(document).ready(function(){
     var aboutSwiper = new Swiper('.about_swiper', {
 
         slidesPerView: "auto",
-        // slidesOffsetAfter: 40,
         spaceBetween: 40,
         
         

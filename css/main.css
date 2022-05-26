@@ -210,8 +210,8 @@
     height: 60px;
     background-color: #41b1e6;
     transition: 0.3s ease;
-    position: static;
     transform: none;
+    position: static;
     margin: 0 !important;
 }
 .about_slide .swiper-button-prev{
