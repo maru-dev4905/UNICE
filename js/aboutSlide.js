@@ -3,7 +3,7 @@ $(document).ready(function(){
     var aboutSwiper = new Swiper('.about_swiper', {
 
         slidesPerView: "auto",
-        spaceBetween: 40,
+        spaceBetween: 15,
         
         
         // Navigation arrows
@@ -15,8 +15,14 @@ $(document).ready(function(){
         // And if we need scrollbar
         scrollbar: {
           el: '.swiper-scrollbar',
-        }
+        },
 
+        breakpoints: {
+        
+          500: {
+            spaceBetween: 40,
+          },
+        },
     });
 
 });
