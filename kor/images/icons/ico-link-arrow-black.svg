@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <path data-name="사각형 6" style="fill:none" d="M0 0h18v18H0z"/>
+    <g data-name="화살표">
+        <path data-name="패스 5" d="M1034.271 1761.435h12.429v-12.177" transform="translate(-1031.487 -1746.347)" style="stroke:#0d0d0d;stroke-width:1.2px;fill:none"/>
+        <path data-name="패스 6" d="m1034.271 1749.464 12.287 11.971" transform="translate(-1031.487 -1746.553)" style="stroke:#0d0d0d;stroke-width:1.2px;fill:none"/>
+    </g>
+</svg>

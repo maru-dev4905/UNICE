@@ -149,7 +149,7 @@ footer .inner{
     margin-bottom: 30px;
 }
 .sec__text > h3{
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 .sec__text h3 span{
     font-family: "Poppins";
@@ -158,7 +158,7 @@ footer .inner{
     font-size: 15px;
     font-weight: 400;
     color: #606060;
-    line-height: 27px;
+    line-height: 22.6px;
     margin-bottom: 40px;
 }
 .sec__text p br.mo_2{
@@ -525,6 +525,9 @@ footer .fot_btm ul a:hover{
         display: none;
     }
     header .sub__menu li:first-child{
+        display: none;
+    }
+    header .sub__menu li:nth-child(2){
         display: none;
     }
     header .sub__menu .search__open__btn{

@@ -1,0 +1,652 @@
+/* about banner */
+.banner{
+    width: 100%;
+    padding-top: 96px;
+}
+.banner .inner{
+    max-width: 1760px;
+}
+.banner .banner__img{
+    height: 800px;
+    height: calc(100vh - 96px);
+    position: relative;
+}
+.banner .banner__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.banner .banner__text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.banner .banner__text h2{
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.banner .banner__text p{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+}
+.banner .banner__text p br{
+    display: none;
+}
+.banner .scrolldown{
+    position: absolute;
+    left: 50%;
+    bottom: 86px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.banner .scrolldown span{
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 86px;
+    display: block;
+}
+.banner .scrolldown::after{
+    content: "";
+    width: 1px;
+    height: 70px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+/* about banner end */
+
+/* about */
+.about{
+    padding: 150px 0;
+}
+.about .schematic_img{
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    max-width: 932px;
+}
+.about .schematic_img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* about end */
+
+
+/* data_platform */
+.data_platform{
+    background: rgba(65, 177, 230, 0.05);
+    padding: 100px 0 0;
+}
+.data_platform .sec__text + .col{
+    margin-top: 70px;
+}
+.data_platform .col > div{
+    flex: 1;
+}
+.data_platform .img__cont{
+    width: 100%;
+}
+.data_platform .img__cont img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.data_platform .platform_text{
+    padding-right: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.data_platform .img__cont + .platform_text{
+    padding-left: 85px;
+    padding-right: 0;
+}
+.data_platform .platform_text h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: #0d0d0d;
+    letter-spacing: -0.72px;
+    margin-bottom: 20px;
+}
+.data_platform .platform_text h4 span{
+    font-family: "Poppins";
+}
+.data_platform .platform_text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+}
+.data_platform .platform_text p span{
+    font-family: "Poppins";
+}
+.data_platform .col.pd{
+    padding: 120px 0;
+}
+.data_platform .col.pd:last-child{
+    padding-bottom: 80px;
+}
+.data_platform .list_text > div:first-of-type{
+    border-top: 1px solid #d9d9d9;
+}
+.data_platform .list_text > div{
+    padding: 30px;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+.data_platform .list_text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d0d0d;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    flex: 1;
+}
+.data_platform .list_text p br.mo{
+    display: none;
+}
+.data_platform .list_text span{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    color: #606060;
+    line-height: 16px;
+    letter-spacing: -0.48px;
+}
+.data_platform .platform_schematic > div{
+    margin-bottom: 25px;
+}
+.data_platform .platform_schematic > div:first-child{
+    margin-bottom: 60px;
+    gap: 15px;
+}
+.data_platform .platform_schematic .box{
+    flex: 1;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 177, 230, 0.07);
+    position: relative;
+}
+.data_platform .platform_schematic .box.arrow::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -34px;
+    width: 12px;
+    height: 10px;
+    background: url("../images/common/triangle.svg") no-repeat center / cover;
+}
+.data_platform .platform_schematic p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+}
+.data_platform .platform_schematic p span{
+    font-family: "Poppins";
+}
+/* data_platform end */
+
+
+
+/* healthcare_platform */
+.healthcare_platform{
+    padding: 150px 0;
+}
+.healthcare_platform_list{
+    display: flex;
+    column-gap: 40px;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    max-width: 920px;
+}
+.healthcare_platform_list li{
+    width: 440px;
+}
+.healthcare_platform_list .img__cont{
+    width: 100%;
+}
+.healthcare_platform_list .img__cont img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.healthcare_platform_list h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin: 30px 0 18px;
+}
+.healthcare_platform_list p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    color: #606060;
+}
+.healthcare_platform_list p span{
+    font-family: "Poppins";
+}
+/* healthcare_platform end */
+
+
+
+/* metaverse */
+.metaverse{
+    padding: 92px 0;
+    background-color: #f9f9f9;
+}
+.metaverse .img__cont{
+    width: 545.6px;
+    margin: 0 auto 76px;
+}
+.metaverse .img__cont img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* metaverse end */
+
+
+/* token */
+.token{
+    padding: 150px 0;
+}
+.token .token__list{
+    display: flex;
+    gap: 40px;
+    max-width: 920px;
+}
+.token .token__list li{
+    width: 440px;
+}
+.token .token__list .img__cont{
+    width: 100%;
+    height: 350px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.token .token__list .img__cont img.token_logo{
+    /* width: 100%;
+    height: auto;
+    object-fit: cover; */
+    width: 124.5px;
+    display: block;
+}
+.token .token__list h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin: 30px 0 18px;
+}
+.token .token__list p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.42px;
+    color: #606060;
+}
+.token .token__list p span{
+    font-family: "Poppins";
+}
+/* token end */
+
+
+
+/* service */
+
+.service{
+    height: 700px;
+    background: #0d0d0d url("../images/visual/main_service_bg.png") no-repeat center / cover;
+}
+.service .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.service .sec__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* service end */
+
+
+
+/* partner */
+.partner{
+    padding: 100px 0;
+    background-color: rgba(65, 177, 230, 0.05);
+}
+.partner .partner_swiper{
+    margin-top: 80px;
+}
+.partner .swiper-wrapper{
+    align-items: center;
+}
+.partner .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content !important;
+}
+.partner .swiper-slide img{
+    width: auto;
+}
+.partner .swiper__btn__cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.partner .swiper-button-next,
+.partner .swiper-button-prev{
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    position: static !important;
+    background-color: #41b1e6;
+    transition: 0.3s ease;
+    transform: none;
+}
+.partner .swiper-button-next::after,
+.partner .swiper-button-prev::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url("../images/icons/ico-swiper_arrow.svg") no-repeat center / cover;
+}
+.partner .swiper-button-prev::after{
+    transform: rotate(180deg);
+}
+/* partner end */
+
+
+
+
+/* schedule */
+.schedule{
+    padding: 150px 0;
+}
+.schedule__list li{
+    padding: 52px 0 34px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+}
+.schedule__list li span{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 27px;
+}
+.schedule__list li .title,
+.schedule__list li .date{
+    font-family: "Poppins";
+}
+.schedule__list li .link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #606060;
+}
+.schedule__list li .link i{
+    width: 18px;
+    height: 18px;
+    background: url("../images/icons/ico-link-arrow-black.svg") no-repeat center / cover;
+}
+/* schedule end */
+
+
+
+/* responsive mobile */
+@media all and (max-width:500px){
+    .banner{
+        padding-top: 60px;
+    }
+    .banner .banner__img{
+        height: calc(100vh - 75px);
+    }
+    .banner .banner__text{
+        white-space: nowrap;
+    }
+    .banner .banner__text h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner .banner__text p{
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #f5f5f5;
+    }
+    .banner .banner__text p br{
+        display: block;
+    }
+    .banner .scrolldown span{
+        margin-bottom: 56px;
+    }
+    .banner .scrolldown::after{
+        height: 40px;
+    }
+
+    .about{
+        padding: 70px 0;
+    }
+    .about .schematic_img{
+        width: 100%;
+    }
+
+
+    .data_platform{
+        padding: 70px 0 0;
+    }
+    .data_platform .sec__text + .col{
+        margin-top: 50px;
+    }
+    .data_platform .col.flex{
+        flex-direction: column;
+    }
+    .data_platform .img__cont + .platform_text{
+        margin-top: 22px;
+        padding-left: 0;
+    }
+    .data_platform .platform_text h4{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+    .data_platform .col.pd{
+        padding: 70px 0;
+        flex-direction: column-reverse;
+    }
+    .data_platform .list_text p{
+        font-size: 15px;
+    }
+    .data_platform .list_text p br.mo{
+        display: block;
+    }
+    .data_platform .list_text span{
+        font-size: 13px;
+    }
+    .data_platform .platform_text{
+        margin-top: 30px;
+        padding-right: 0;
+    }
+    .data_platform .platform_schematic p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .data_platform .platform_schematic .box{
+        height: 80px;
+    }
+    .data_platform .platform_schematic .box.arrow::after{
+        width: 6px;
+        height: 5px;
+        bottom: -14px;
+    }
+    .data_platform .platform_schematic > div{
+        margin-bottom: 12px;
+    }
+    .data_platform .platform_schematic > div:first-child{
+        margin-bottom: 22px;
+    }
+
+
+
+    .healthcare_platform{
+        padding: 70px 0;    
+    }
+    .healthcare_platform .sec__text{
+        text-align: center;
+    }
+    .healthcare_platform .flex{
+        flex-direction: column;
+    }
+    .healthcare_platform_list{
+        margin-top: 30px;
+        row-gap: 70px;
+    }
+    .healthcare_platform_list h4{
+        font-size: 20px;
+        margin-top: 22px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+
+
+    .metaverse{
+        padding: 70px 0;
+    }
+    .metaverse .img__cont{
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+
+
+    .token{
+        padding: 70px 0;
+    }
+    .token .inner.flex{
+        flex-direction: column;
+    }
+    .token .sec__text{
+        text-align: center;
+    }
+    .token .sec__text h3{
+        margin-bottom: 6px;
+    }
+    .token .token__list{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .token .token__list li{
+        width: 100%;
+    }
+    .token .token__list .img__cont{
+        height: 275px;
+    }
+    .token .token__list h4{
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 22px;
+        margin-bottom: 2px;
+    }
+    .token .token__list p{
+
+    }
+
+    
+
+    .partner{
+        padding: 70px 0;
+    }
+    .partner .partner_swiper{
+        margin-top: 50px;
+    }
+    .partner .swiper-wrapper{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    .partner .swiper__btn__cont{
+        display: none;
+    }
+    .partner .swiper-wrapper .swiper-slide{
+        display: flex;
+        justify-content: center;
+    }
+    .partner .swiper-wrapper .swiper-slide:nth-last-child(1),
+    .partner .swiper-wrapper .swiper-slide:nth-last-child(2),
+    .partner .swiper-wrapper .swiper-slide:nth-last-child(3),
+    .partner .swiper-wrapper .swiper-slide:nth-last-child(4){
+        display: none;
+    }
+
+
+    
+    .service{
+        background: #0d0d0d url(../images/visual/main_service_bg_mo.png) no-repeat center / cover;
+        height: 694px;
+    }
+
+
+    .schedule{
+        padding: 70px 0;
+    }
+    
+    .schedule__list li:first-child{
+        border-top: 1px solid #dbdbdb;
+    }
+    .schedule__list li{
+        padding: 24px 0;
+    }
+    .schedule__list li span{
+        font-size: 11px;
+    }
+    .schedule__list li .link a{
+        gap: 0;
+    }
+
+}
+/* responsive mobile end */

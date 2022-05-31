@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICE</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/inquiry.css">
+    <link rel="stylesheet" href="./css/icon.css">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- swiper.js cdn -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>    
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="inner">
+            <h1 class="logo">
+                <a href="./main.html">
+                    <img src="./images/common/logo.svg" alt="logo">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="./main.html#about">about unice</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="./about.html#about">주요 서비스</a>
+                            </li>
+                            <li>
+                                <a href="./about.html#token">토큰정보</a>
+                            </li>
+                            <li>
+                                <a href="./about.html#partner">파트너</a>
+                            </li>
+                            <li>
+                                <a href="./about.html#schedule">일정</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">download</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="./main.html#service">백서</a>
+                            </li>
+                            <li>
+                                <a href="./main.html#service">지갑</a>
+                            </li>
+                            <li>
+                                <a href="#">scope. Klaytn</a>
+                            </li>
+                            <li>
+                                <a href="#">뉴스</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">contact us</a>
+                        <ul class="sub">
+                            <li>
+                                <a href="#">커뮤니티</a>
+                            </li>
+                            <li>
+                                <a href="#">이벤트</a>
+                            </li>
+                            <li>
+                                <a href="./inquiry.html">문의</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="sub__menu">
+                <li>
+                    <a href="../kor/inquiry.html">kor</a>
+                </li>
+                <li>
+                    <a href="#">login</a>
+                </li>
+                <li>
+                    <button class="search__open__btn"></button>
+                </li>
+                <li>
+                    <button class="menu__open__btn"></button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- header end -->
+    
+    <main>
+        <section class="inquiry">
+            <div class="inner">
+                <h3>INQUIRY</h3>
+                <form action="#" method="post">
+                    <div class="flex spaceBetween">
+                        <input type="text" id="name_input" placeholder="Name">
+                        <input type="email" id="email_input" placeholder="Email">
+                    </div>
+                    <input type="text" id="title_input" placeholder="Title">
+                    <textarea id="desc_input" placeholder="Please enter your inquiry"></textarea>
+                    <button type="submit" class="submit_btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="inner fot_top">
+            <div class="flex spaceBetween">
+                <nav class="fnb">
+                    <ul>
+                        <li>
+                            <a class="title">ABOUT</a>
+                            <a href="#">Major Services</a>
+                            <a href="#">Token Information</a>
+                            <a href="#">Partner</a>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a class="title">DOWNLOAD</a>
+                            <a href="#">A Document</a>
+                            <a href="#">Wallet</a>
+                            <a href="#">Scope. Klayth</a>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a class="title">CONTACT US</a>
+                            <a href="#">Community</a>
+                            <a href="#">Event</a>
+                            <a href="#">Inquiry</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="newslatter">
+                    <h4>Subscribe to our Newslatter</h4>
+                    <p>
+                        Stay up to date with releases 
+                        <br class="mo">
+                        and latest news from UNICE
+                    </p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your E-mail">
+                        <button class="newslatter_btn" type="submit">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="flex fot_btm">
+            <div class="inner flex spaceBetween">
+                <p>
+                    2022 UNICE. All Rights Reserved.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scrollTop_btn"></button>
+
+    
+    <div class="menu">
+        <button class="close__btn"></button>
+        <div class="gnb_link">
+            <a href="./main.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="#">download</a>
+            <a href="./inquiry.html">contact us</a>
+        </div>
+        <div class="sub_link">
+            <a href="#">faq</a>
+            <a href="#">login</a>
+            <a href="#">join</a>
+            <a href="../kor/inquiry.html">KOR</a>
+        </div>
+    </div>
+
+    <div class="search">
+        <form action="#" method="get">
+            <button class="search_btn"></button>
+            <input type="text" placeholder="Enter Search Word">
+            <button class="search_close_btn" type="button"></button>
+        </form>
+        <div class="recommendation_text">
+            <h3>추천 검색어</h3>
+            <a href="#">원격진료</a>
+            <a href="#" class="font_eng">My Care Bot</a>
+            <a href="#">헬스 아바타</a>
+        </div>
+    </div>
+    
+
+    <script src="./js/scroll.js"></script>
+    <script src="./js/scrollDown.js"></script>
+    <script src="./js/scrollTop.js"></script>
+    <script src="./js/bannerSlide.js"></script>
+    <script src="./js/aboutSlide.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

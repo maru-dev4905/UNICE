@@ -1,0 +1,80 @@
+/* inquiry */
+.inquiry{
+    padding-top: 96px;
+}
+.inquiry h3{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #0d0d0d;
+    line-height: 55px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.inquiry form{
+    margin: 0 auto 100px;
+    width: calc(100%);
+    max-width: 768px;
+}
+.inquiry .flex{
+    gap: 20px;
+}
+.inquiry input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    outline: none;
+    padding: 0 14px;
+    font-size: 16px;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+.inquiry input:focus{
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.inquiry textarea{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    height: 300px;
+    font-size: 16px;
+    color: #0d0d0d;
+    padding: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+.inquiry textarea:focus{
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.inquiry .submit_btn{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0;
+    background-color: #41b1e6;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 4px;
+}
+/* inquiry end */
+
+
+
+/* responsive mobile */
+@media all and (max-width:500px){
+    .inquiry h3{
+        margin-top: 60px;
+    }
+}
+/* responsive mobile end */
