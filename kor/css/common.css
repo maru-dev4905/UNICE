@@ -121,6 +121,25 @@ header .sub__menu .menu__open__btn{
 /* header end */
 
 /* layout */
+
+.dim{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000000;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+.dim.show{
+    opacity: 1;
+    visibility: visible;
+}
+
 .inner{
     width: calc(100% - 40px);
     max-width: 1760px;
@@ -696,6 +715,15 @@ footer .fot_btm ul a:hover{
     }
     footer .fot_btm ul a{
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    
+    .dim{
+        display: block;
+        z-index: 100000000000000;
+    }
+    .search{
+        z-index: 100000000000000000000;
     }
 }
 /* responsive mobile end */

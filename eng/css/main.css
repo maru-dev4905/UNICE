@@ -254,8 +254,12 @@
 }
 .major_service .item{
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     gap: 36px;
+    width: 630px;
+}
+.major_service .item .desc{
+    margin-top: 24px;
 }
 .major_service .item h4{
     font-size: 24px;
@@ -348,6 +352,10 @@
     line-height: 22px;
     color: #606060;
     margin-top: 16px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 .news__list h4 i{
     width: 24px;
@@ -539,6 +547,14 @@
     }
     .news__list p{
         margin-top: 14px;
+    }
+
+
+    .major_service .item{
+        width: 100%;
+    }
+    .major_service .item .desc{
+        margin-top: 0;
     }
 }
 /* responsive mobile end */
